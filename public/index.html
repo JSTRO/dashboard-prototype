@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard Prototype</title>
+  </head>
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <a class="navbar-header" href="#"><img class="logo img-circle" src="imgs/VenturX.png" alt="logo" width="20%">VenturX: Prototype</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Hello, 16@test.com</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid" id="page">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 profile-pic">
+          <img class="img-responsive img-rounded"src="imgs/profile-placeholder.jpg" alt="profile-placeholder">
+        </div>
+        <div class="col-md-6 profile-box">
+          <div class="row">
+            <div class="col-md-2" id="market"><strong>Market</strong></div>
+            <div class="col-md-7">Fill in who are your customers?</div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2" id="pain"><strong>Pain</strong></div>
+            <div class="col-md-7">What is the pain statement that you are trying to solve for them?</div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2" id="benefit"><strong>Benefit</strong></div>
+            <div class="col-md-7">What is the benefit that will match that pain statement?</div>
+            <div class="col-md-3">
+            </div>
+            <button type="button" class="btn btn-secondary">Edit Profile</button>
+          </div>
+        </div>
+      </div>
+        <p id="edit">How is <strong>VenturX </strong><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a> doing today? 
+          <span id="check">Check dashboard</span>
+        </p>
+      <div class="row" id="progressbars">
+      </div>
+
+      <div class="alerts">
+        <div class="alert alert-warning">
+          <strong>Small conversion?</strong> Learn what you can do to <a href="#" class="alert-link">rise your conversion</a>.
+        </div>
+        <div class="alert alert-danger">
+          <strong>Low product score?</strong> <a href="#" class="alert-link"> Try this</a> to get more ...
+        </div>
+      </div>   
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
+
